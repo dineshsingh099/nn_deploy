@@ -15,3 +15,5 @@ ENV PYTHONPATH=${PYTHONPATH}:/app/src
 CMD ["python3", "./src/train_pipeline.py"]
 
 
+
+
