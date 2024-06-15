@@ -9,7 +9,7 @@ P = [NUM_INPUTS,2,1]
 f = [None,"linear","sigmoid"]
 
 LOSS_FUNCTION = "Mean Squared Error"
-MINI_BATCH_SIZE = 1
+MINI_BATCH_SIZE = 2
 
 PACKAGE_ROOT = pathlib.Path(src.__file__).resolve().parent
 DATAPATH = os.path.join(PACKAGE_ROOT,"datasets") 
