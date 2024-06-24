@@ -1,2 +1,6 @@
 pandas==2.2.2
 numpy==1.26.4
+fastapi<0.110.2
+uvicorn<=0.30.1
+pydantic<=2.7.4
+gunicorn<=21.2.0

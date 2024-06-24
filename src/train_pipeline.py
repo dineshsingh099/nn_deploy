@@ -5,7 +5,9 @@ from src.config import config
 import src.preprocessing.preprocessors as pp
 from src.preprocessing.data_management import load_dataset, save_model, load_model
 
-import pipeline as pl
+# src/train_pipeline.py
+from src import pipeline as pl
+
 
 z = [None]*config.NUM_LAYERS
 h = [None]*config.NUM_LAYERS
